@@ -1,4 +1,4 @@
-/*Airgap FTP at 345B/s using LED & photoresistor.                               Run it: "apt install g++ geany". Open the .cpp in Geany. Hit F9 once. F5 to run.
+/*Unidirectional network at 345B/s using LED & photoresistor.                   Run it: "apt install g++ geany". Open the .cpp in Geany. Hit F9 once. F5 to run.
 Do "apt install sox" on both machines. */
 
 #include <filesystem>
