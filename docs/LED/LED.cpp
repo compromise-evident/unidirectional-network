@@ -90,7 +90,7 @@ int main()
 		}
 		
 		//'0' end-of-stream (extra long wait.)
-		out_stream.put(-1); for(int a = 0; a <   9; a++) {out_stream.put(127);} //..........Spike, long  wait
+		out_stream.put(-1); for(int a = 0; a <     9; a++) {out_stream.put(127);} //..........Spike, long  wait
 		out_stream.put(-1); for(int a = 0; a < 45000; a++) {out_stream.put(127);} //..........Spike, VERY LONG WAIT = end
 		in_stream.close();
 		out_stream.close();
