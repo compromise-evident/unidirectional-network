@@ -4,7 +4,9 @@
 
 <br>
 
-https://github.com/compromise-evident/airgapFTP/assets/75550631/cabe9cfb-08b6-44af-8240-1c76162d4c3f
+<p align="center">
+  <img src="https://github.com/compromise-evident/airgapFTP/assets/75550631/cabe9cfb-08b6-44af-8240-1c76162d4c3f">
+</p>
 
 <br>
 
@@ -48,41 +50,27 @@ it cannot become darker fast enough after each flash of light.
   <img src="docs/LED/materials.jpeg">
 </p>
 
-https://github.com/compromise-evident/airgapFTP/assets/75550631/4a9a4f20-4205-4f49-96c6-10445f4c7c2d
+<p align="center">
+  <img src="https://github.com/compromise-evident/airgapFTP/assets/75550631/4a9a4f20-4205-4f49-96c6-10445f4c7c2d">
+</p>
 
 <p align="center">
   <img src="docs/LED/terminal.png">
 </p>
 
-See [LED.cpp](https://github.com/compromise-evident/airgap-FTP/blob/main/docs/LED/LED.cpp). (May need to tilt photoresistor away as in video above. Use it in a dark enclosure.) <br>
+See [LED.cpp](https://github.com/compromise-evident/unidirectional-network/blob/main/docs/LED/LED.cpp). (May need to tilt photoresistor away as in video above. Use it in a dark enclosure.) <br>
 <sub>*Receiving machine must have audio recording hardware at least like that of the Dell Latitude E5500 (made in 2008.) <br>
 If you own a modern thousand-dollar laptop, this won't work; your mic line is always noisy, even when disabled.<sub/>
 
 <br>
 
-### Or 1kB/s (press enter & play wav at the same time)
-
-<p align="center">
-  <img src="docs/aux/aux_cord.png">
-</p>
-
-<p align="center">
-  <img src="docs/aux/terminal.png">
-</p>
-
-See [aux.cpp](https://github.com/compromise-evident/airgap-FTP/blob/main/docs/aux/aux.cpp) <br>
-<sub>*Receiving machine must have audio recording hardware at least like that of the Dell Latitude E5500 (made in 2008.) <br>
-If you own a modern thousand-dollar laptop, this won't work; your mic line is always noisy, even when disabled.<sub/>
-
-<br>
-
-### Or truly instant NAS (no systemd)
+### Send files to the sending machine via truly instant NAS (no systemd)
 
 https://github.com/compromise-evident/what-not/blob/main/truly_instant_NAS
 
 <br>
 
-### Send files to sending machine via local network.
+### Send files to the sending machine via local network.
 
 * Sending machine should have the Gnome desktop environment, unfortunately.
   Go to Settings, Sharing. Enable sharing, then enable
