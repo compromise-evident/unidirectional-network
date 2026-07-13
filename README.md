@@ -5,7 +5,8 @@
 <br>
 
 <p align="center">
-  <img src="https://github.com/compromise-evident/airgapFTP/assets/75550631/cabe9cfb-08b6-44af-8240-1c76162d4c3f">
+  <video src="https://github.com/compromise-evident/airgapFTP/assets/75550631/cabe9cfb-08b6-44af-8240-1c76162d4c3f" controls="controls" muted="muted" style="max-width: 100%;">
+  </video>
 </p>
 
 <br>
@@ -51,7 +52,8 @@ it cannot become darker fast enough after each flash of light.
 </p>
 
 <p align="center">
-  <img src="https://github.com/compromise-evident/airgapFTP/assets/75550631/4a9a4f20-4205-4f49-96c6-10445f4c7c2d">
+  <video src="https://github.com/compromise-evident/airgapFTP/assets/75550631/4a9a4f20-4205-4f49-96c6-10445f4c7c2d" controls="controls" muted="muted" style="max-width: 100%;">
+  </video>
 </p>
 
 <p align="center">
