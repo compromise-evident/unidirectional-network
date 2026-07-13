@@ -5,7 +5,7 @@
 <br>
 
 <p align="center">
-  <video src="https://github.com/compromise-evident/airgapFTP/assets/75550631/cabe9cfb-08b6-44af-8240-1c76162d4c3f" controls="controls" muted="muted" style="max-width: 100%;">
+  <video src="https://github.com/compromise-evident/unidirectional-network/assets/75550631/cabe9cfb-08b6-44af-8240-1c76162d4c3f" controls="controls" muted="muted" style="max-width: 100%;">
   </video>
 </p>
 
@@ -52,7 +52,7 @@ it cannot become darker fast enough after each flash of light.
 </p>
 
 <p align="center">
-  <video src="https://github.com/compromise-evident/airgapFTP/assets/75550631/4a9a4f20-4205-4f49-96c6-10445f4c7c2d" controls="controls" muted="muted" style="max-width: 100%;">
+  <video src="https://github.com/compromise-evident/unidirectional-network/assets/75550631/4a9a4f20-4205-4f49-96c6-10445f4c7c2d" controls="controls" muted="muted" style="max-width: 100%;">
   </video>
 </p>
 
@@ -93,5 +93,5 @@ https://github.com/compromise-evident/what-not/blob/main/process_file_by_bits.cp
 
 ### Appendix
 
-airgapFTP has been written about on
+unidirectional-network has been written about on
 [HACKADAY](https://hackaday.com/2024/03/19/photoresistors-provide-air-gap-data-transfer-slowly/). Thank you for the recognition.
