@@ -1,9 +1,11 @@
-//YOUR CONTROLS:                                                                Run it: "apt install g++ geany". Open the .cpp in Geany. Hit F9 once. F5 to run.
+//YOUR CONTROLS:
 char time_consumption[] = {"sleep 0.056"}; //Smaller = faster boxes.
 
 
 
-/*Version 3.0.2
+/*Run it: "apt install g++ geany". Open the .cpp in Geany. Hit F9 once. F5 to run.
+
+Version 3.0.2
 Fully automated unidirectional network at 1B/s using keyboard
 guts & photoresistors. Keep dropping files in folder "Send".
 

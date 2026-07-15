@@ -89,6 +89,10 @@ https://github.com/compromise-evident/what-not/blob/main/truly_instant_NAS
 
 https://github.com/compromise-evident/what-not/blob/main/process_file_by_bits.cpp
 
+https://github.com/compromise-evident/what-not/blob/main/presses_enter_after_you_type_n_characters.cpp
+
+https://github.com/compromise-evident/what-not/blob/main/toggle_num_lock_and_caps_lock.cpp
+
 <br>
 
 ### Appendix
