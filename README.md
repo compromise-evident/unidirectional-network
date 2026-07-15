@@ -98,4 +98,4 @@ https://github.com/compromise-evident/what-not/blob/main/toggle_num_lock_and_cap
 ### Appendix
 
 unidirectional-network has been written about on
-[HACKADAY](https://hackaday.com/2024/03/19/photoresistors-provide-air-gap-data-transfer-slowly/). Thank you for the recognition.
+[HACKADAY](https://hackaday.com/2024/03/19/photoresistors-provide-air-gap-data-transfer-slowly/).
