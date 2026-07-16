@@ -43,7 +43,8 @@ sensitive to at least 5,520 adjustments in brightness per second
 the LED brightness normalized.) The bottleneck is the LED;
 it cannot become darker fast enough after each flash of light.
 
-LEFT: power to the microphone line, interrupted by photoresistor. RIGHT: power to the LED, interrupted by audio silence.
+LEFT: power to the microphone line, interrupted by photoresistor.<br>
+RIGHT: power to the LED, interrupted by audio silence.
 
 <p align="center">
   <img src="docs/LED/close-up.jpeg">
