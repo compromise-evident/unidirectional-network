@@ -63,8 +63,8 @@ RIGHT: power to the LED, interrupted by audio silence.
   <img src="docs/LED/terminal.png">
 </p>
 
-See [LED.cpp](https://github.com/compromise-evident/unidirectional-network/blob/main/docs/LED/LED.cpp). (May need to tilt photoresistor away as in video above. Use it in a dark enclosure.) <br>
-<sub>*Receiving machine must have audio recording hardware at least like that of the Dell Latitude E5500 (made in 2008.) <br>
+See [LED.cpp](https://github.com/compromise-evident/unidirectional-network/blob/main/docs/LED/LED.cpp). (May need to tilt photoresistor away as in video above. Use it in a dark enclosure). <br>
+<sub>*Receiving machine must have audio recording hardware at least like that of the Dell Latitude E5500 (made in 2008).<br>
 If you own a modern thousand-dollar laptop, this won't work; your mic line is always noisy, even when disabled.<sub/>
 
 <br>
