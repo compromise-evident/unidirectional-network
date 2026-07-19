@@ -63,6 +63,8 @@ readjust and continue receiving remaining bytes correctly.
 
 <br>
 
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
 ### Or 345B/s (press enter & play wav at the same time)
 
 This method proves that modern generic photoresistors are
