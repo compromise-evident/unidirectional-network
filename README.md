@@ -54,7 +54,7 @@ https://github.com/compromise-evident/unidirectional-network/blob/main/docs/zero
 
 <br>
 
-### FTP logic
+### The logic
 
 * Just before each file is sent, num lock blinks 1 time so the receiver knows
   which character is bit 0. It's ok if your computer swapped num lock & caps
