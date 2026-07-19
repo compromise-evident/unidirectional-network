@@ -37,6 +37,12 @@ Hit F9 once. F5 to run.
 
 <br>
 
+### Option 2 alone (receive files) has no dependencies.
+
+https://github.com/compromise-evident/unidirectional-network/blob/main/docs/zero_dependency_receive_files.cpp
+
+<br>
+
 ### Or 345B/s (press enter & play wav at the same time)
 
 This method proves that modern generic photoresistors are
