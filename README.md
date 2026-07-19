@@ -1,6 +1,8 @@
 ### Run it
 
-```apt install g++ geany```. Open the .cpp in Geany. Hit F9 once. F5 to run.
+```apt install g++ geany libx11-dev```. Open the .cpp in Geany.
+Go to Build >> Set Build Commands. Where it says "Compile" and "Build", append " -lX11".
+Hit F9 once. F5 to run.
 
 <br>
 
@@ -11,7 +13,7 @@
 
 <br>
 
-### :hocho: Gut a keyboard & sand off black coating
+### :hocho: Gut 2 keyboards & sand off black coating on one (I'm using DELL SK-8115)
 
 <p align="center">
   <img src="docs/keyboard_guts.png">
@@ -19,18 +21,18 @@
 
 <br>
 
-### Solder photoresistors to leads who type if shorted
+### Sanded keyboard: solder photoresistors to pins that type something when shorted
 
 <p align="center">
-  <img src="docs/keyboard_photoresistors.jpg">
+  <img src="docs/photoresistors.jpg">
 </p>
 
 <br>
 
-### Tape photoresistors to eyes of the sending machine
+### Face the photoresistors at the other keyboard's num lock and caps lock LEDs
 
 <p align="center">
-  <img src="docs/terminal.png">
+  <img src="docs/facing_photoresistors.jpg">
 </p>
 
 <br>
