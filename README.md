@@ -66,7 +66,7 @@ https://github.com/compromise-evident/unidirectional-network/blob/main/docs/zero
 
 <br>
 
-### FTP is safe
+### Self-healing
 
 Because of the logic above, if you had opened the box at any time and allowed
 light to corrupt the transfer, everything's fine, even if it looks stuck. The
