@@ -1,3 +1,6 @@
+Version 4.0.0   Uses num lock & caps lock instead of terminal boxes. Remastered.
+                2026_07_18
+
 Version 3.0.2   Replaced system("clear"); because it's now broken. Aesthetics.
                 2026_06_14
 
