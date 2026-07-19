@@ -1,7 +1,7 @@
 ### Run it
 
-```apt install g++ geany libx11-dev```. Open the .cpp in Geany.
-Go to Build >> Set Build Commands. Where it says "Compile" and "Build", append " -lX11".
+```apt install g++ geany libx11-dev```. Open the .cpp in Geany.<br>
+Go to Build >> Set Build Commands. Where it says "Compile" and "Build", append " -lX11".<br>
 Hit F9 once. F5 to run.
 
 <br>
