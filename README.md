@@ -48,7 +48,7 @@ Option: |
 
 <br>
 
-### Receive files without installing or appending anything (option 2 by itself):
+### Receive files without installing or appending anything (option 2 by itself)
 
 https://github.com/compromise-evident/unidirectional-network/blob/main/docs/zero_dependency_receive_files.cpp
 
@@ -68,7 +68,7 @@ https://github.com/compromise-evident/unidirectional-network/blob/main/docs/zero
 
 ### FTP is safe
 
-Because of the logic above, if you had momentarily opened the box and allowed
+Because of the logic above, if you had opened the box at any time and allowed
 light to corrupt the transfer, everything's fine. The receiver will always
 readjust and continue receiving remaining bytes correctly.
 
