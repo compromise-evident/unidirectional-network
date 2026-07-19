@@ -37,9 +37,29 @@ Hit F9 once. F5 to run.
 
 <br>
 
-### Option 2 alone (receive files) has no dependencies.
+### Receive files without installing or appending anything (option 2 by itself):
 
 https://github.com/compromise-evident/unidirectional-network/blob/main/docs/zero_dependency_receive_files.cpp
+
+<br>
+
+### FTP logic
+
+* Just before each file is sent, num lock blinks 1 time so the receiver knows
+  which character is bit 0. It's ok if your computer swapped num lock & caps
+  lock.
+* Just before each byte is sent, the character representing bit 0 blinks 1 time
+  so the receiver knows that this is not the last byte. If a byte is instead
+  preceded by the character representing bit 1, that's the last byte of the
+  file.
+
+<br>
+
+### FTP is safe
+
+Because of the logic above, if you had momentarily opened the box and allowed
+light to corrupt the transfer, everything's fine. The receiver will always
+readjust and continue receiving remaining bytes correctly.
 
 <br>
 
