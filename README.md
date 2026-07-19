@@ -65,7 +65,7 @@ https://github.com/compromise-evident/unidirectional-network/blob/main/docs/zero
 
 <br>
 
-### Self-healing
+### Self-healing comes from the logic alone
 
 Because of the logic above, if you had opened the box at any time and allowed
 light to corrupt the transfer, or if the transfer was interrupted in any way,
