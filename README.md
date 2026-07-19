@@ -69,8 +69,8 @@ https://github.com/compromise-evident/unidirectional-network/blob/main/docs/zero
 ### FTP is safe
 
 Because of the logic above, if you had opened the box at any time and allowed
-light to corrupt the transfer, everything's fine. The receiver will always
-readjust and continue receiving remaining bytes correctly.
+light to corrupt the transfer, everything's fine, even if it looks stuck. The
+receiver will always readjust and continue receiving remaining bytes correctly.
 
 <br>
 
