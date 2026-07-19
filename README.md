@@ -29,7 +29,7 @@ Hit F9 once. F5 to run.
 
 <br>
 
-### Face the photoresistors at the other keyboard's num lock and caps lock LEDs
+### Make the photoresistors face the other keyboard's LEDs for num lock & caps lock
 
 <p align="center">
   <img src="docs/facing_photoresistors.jpg">
