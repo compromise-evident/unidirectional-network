@@ -6,6 +6,17 @@ Hit F9 once. F5 to run.
 
 <br>
 
+### Terminal
+
+```text
+(1) Send files
+(2) Receive files
+
+Option: |
+```
+
+<br>
+
 <p align="center">
   <video src="https://github.com/user-attachments/assets/d0d9cbb4-6c59-40aa-bb96-007b52a0e3cb" controls="controls" muted="muted" style="max-width: 100%;">
   </video>
