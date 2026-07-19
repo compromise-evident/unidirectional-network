@@ -69,8 +69,10 @@ https://github.com/compromise-evident/unidirectional-network/blob/main/docs/zero
 ### Self-healing
 
 Because of the logic above, if you had opened the box at any time and allowed
-light to corrupt the transfer, everything's fine, even if it looks stuck. The
-receiver will always readjust and continue receiving remaining bytes correctly.
+light to corrupt the transfer, or if the transfer was interrupted in any way,
+everything's fine, even if it's in the "stuck" position. The receiver will
+always readjust and continue receiving remaining bytes correctly,
+again and again.
 
 <br>
 
