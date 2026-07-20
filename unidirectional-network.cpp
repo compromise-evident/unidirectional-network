@@ -1,5 +1,5 @@
 //YOUR CONTROLS:
-unsigned long long milliseconds_to_consume = 37; //Increase if problem. Higher = slower blinking.
+unsigned long long milliseconds_to_consume = 38; //Increase if problem. Higher = slower blinking.
 
 
 
