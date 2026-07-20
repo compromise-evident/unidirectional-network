@@ -81,7 +81,7 @@ will always readjust and continue receiving correctly, again and again.
 This method proves that modern generic photoresistors are
 sensitive to at least 5,520 adjustments in brightness per second
 (an opposite bit is appended to each data bit to keep
-the LED brightness normalized.) The bottleneck is the LED;
+the LED brightness normalized). The bottleneck is the LED;
 it cannot become darker fast enough after each flash of light.
 
 LEFT: power to the microphone line, interrupted by photoresistor.<br>
