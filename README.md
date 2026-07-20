@@ -68,7 +68,7 @@ https://github.com/compromise-evident/unidirectional-network/blob/main/docs/zero
 ### Self-healing comes from the logic alone
 
 Because of the logic above, if you had opened the box at any time and allowed
-light to corrupt the transfer, or if the transfer was interrupted in any way,
+light to corrupt the transfer, or if the transfer was corrupted in any other way,
 then everything's still fine, even if it's in the "stuck" position. The receiver
 will always readjust and continue receiving correctly, again and again.
 
