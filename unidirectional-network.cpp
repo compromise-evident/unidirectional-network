@@ -8,9 +8,8 @@ Go to Build >> Set Build Commands. Where it says "Compile" and "Build", append "
 Hit F9 once. F5 to run.
 
 Version 4.0.0
-Self-healing and fully automated unidirectional network at
-1B/s using num lock & caps lock LEDs. Keep dropping files
-in folder "send". Readjusts if interrupted in any way.
+Self-healing and fully automated unidirectional network at 1B/s using
+num lock & caps lock LEDs. Keep dropping files into the "send" folder.
 
 Empty files will be deleted, not sent.*/
 
