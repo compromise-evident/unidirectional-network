@@ -52,6 +52,10 @@ Option: |
 
 https://github.com/compromise-evident/unidirectional-network/blob/main/docs/zero_dependency_receive_files.cpp
 
+When you hit F9 in Geany, it creates an executable of the cpp in the
+working-directory. You can copy & paste that executable onto the receiving
+machine, set it as executable, and drag-n-drop it into a terminal.
+
 <br>
 
 ### The logic
