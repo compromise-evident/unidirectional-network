@@ -59,9 +59,9 @@ https://github.com/compromise-evident/unidirectional-network/blob/main/docs/zero
 * Just before each file is sent, num lock blinks 1 time so the receiver knows
   which character is bit 0. It's ok if your computer swapped num lock & caps
   lock.
-* Just before each byte is sent, if it's not the last byte, the character
-  representing bit 0 blinks 1 time, else the character representing bit 1 blinks
-  1 time.
+* Just before each byte is sent, if it's not the last byte, num lock blinks 1
+  time. If it is the last byte, caps lock blinks 1 time. It's ok if your
+  computer swapped num lock & caps lock.
 
 <br>
 
