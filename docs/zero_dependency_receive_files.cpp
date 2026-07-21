@@ -22,11 +22,9 @@ int main()
 	tcsetattr(STDIN_FILENO, TCSANOW, &new_settings);
 	
 	//Begins.
-	for(unsigned long long files_received = 0;; files_received++)
-	{	std::cout << "\n\n" << files_received << " files received...\n";
-		
-		//Waits for key that represents zero.
-		std::cout << "\nrepresenting 0: ";
+	for(unsigned long long file_number = 1;; file_number++)
+	{	//Waits for key that represents zero.
+		std::cout << "\n\nfile " << file_number << ", signifies zero: ";
 		char c; if(std::cin.get(c)) {std::cout << c;}
 		char key_representing_zero = c;
 		
@@ -41,7 +39,7 @@ int main()
 		//Waits for 9 keys.
 		out_stream.open(new_file_name); if(!out_stream) {std::cout << "\nCan't open file for writing. (Creates file).\n"; return 1;}
 		for(unsigned long long count = 1;; count++)
-		{	std::cout << "\nbyte " << count << ": ";
+		{	std::cout << "\nfile " << file_number << ", byte " << count << ": ";
 			std::string typed_characters;
 			for(int a = 0; a < 9; a++)
 			{	char c; if(std::cin.get(c)) {typed_characters += c; std::cout << c;}
