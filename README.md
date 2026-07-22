@@ -78,9 +78,7 @@ will always readjust and continue receiving correctly, again and again.
 
 <br>
 
-------------------------------------------------------------------------------------------------------------------------------------------------------
-
-### Or 345B/s (press enter & play wav at the same time)
+### Method 2: 345B/s (press enter & play wav at the same time)
 
 This method proves that modern generic photoresistors are
 sensitive to at least 5,520 adjustments in brightness per second
