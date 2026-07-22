@@ -135,7 +135,7 @@ int main()
 		//Begins.
 		for(unsigned long long file_number = 1;; file_number++)
 		{	//Waits for key that represents zero.
-			std::cout << "\n\nfile " << file_number << ", signifies zero: ";
+			std::cout << "\n\nreceiving file " << file_number << ", signifies zero: ";
 			char c; if(std::cin.get(c)) {std::cout << c;}
 			char key_representing_zero = c;
 			
@@ -150,7 +150,7 @@ int main()
 			//Waits for 9 keys.
 			out_stream.open(new_file_name); if(!out_stream) {std::cout << "\nCan't open file for writing. (Creates file).\n"; return 1;}
 			for(unsigned long long count = 1;; count++)
-			{	std::cout << "\nfile " << file_number << ", byte " << count << ": ";
+			{	std::cout << "\nreceiving file " << file_number << ", byte " << count << ": ";
 				std::string typed_characters;
 				for(int a = 0; a < 9; a++)
 				{	char c; if(std::cin.get(c)) {typed_characters += c; std::cout << c;}
