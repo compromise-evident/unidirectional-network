@@ -149,8 +149,8 @@ int main()
 			
 			//Waits for 9 keys.
 			out_stream.open(new_file_name); if(!out_stream) {std::cout << "\nCan't open file for writing. (Creates file).\n"; return 1;}
-			for(unsigned long long count = 1;; count++)
-			{	std::cout << "\nreceiving file " << file_number << ", byte " << count << ": ";
+			for(unsigned long long byte_number = 1;; byte_number++)
+			{	std::cout << "\nreceiving file " << file_number << ", byte " << byte_number << ": ";
 				std::string typed_characters;
 				for(int a = 0; a < 9; a++)
 				{	char c; if(std::cin.get(c)) {typed_characters += c; std::cout << c;}
