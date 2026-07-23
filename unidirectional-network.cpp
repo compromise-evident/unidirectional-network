@@ -9,7 +9,7 @@ Hit F9 once. F5 to run.
 
 Version 4.0.0
 Self-healing and fully automated unidirectional network at 1B/s using
-num lock & caps lock LEDs. Keep dropping files into the "send" folder.
+Num Lock and Caps Lock LEDs. Keep dropping files into the "send" folder.
 
 Empty files will be deleted, not sent.*/
 
@@ -42,7 +42,8 @@ int main()
 	//WZMWZMWZMWZMWZMWZMWZMWZMWZMWZMWZMWZMWZMWZMWZMWZMWZMWZMWZMWZMWZMWZMWZMWZMWZMWZMWZMWZMWZMWZMWZMWZMWZMWZMWZMWZMWZMWZMWZMWZMWZMWZMWZMWZMWZMWZMWZMWZMWZMWZMWZMW
 	if(o == "1")
 	{	std::filesystem::create_directories("send");
-		std::cout << "\n";
+		
+		//Num Lock and Caps Lock stuff.
 		Display* dpy = XOpenDisplay(nullptr); if(!dpy) {return 1;}
 		const unsigned int CAPS_MASK = LockMask;
 		const unsigned int NUM_MASK = Mod2Mask;
@@ -51,9 +52,9 @@ int main()
 		XkbLockModifiers(dpy, XkbUseCoreKbd, CAPS_MASK | NUM_MASK, 0); XSync(dpy, False);
 		
 		//Begins.
-		for(unsigned long long files_sent = 0;; files_sent++)
+		for(unsigned long long file_number = 0;; file_number++)
 		{	//Waits for files in folder "send".
-			std::cout << files_sent << " files sent. Keep dropping files in folder \"send\"...\n";
+			std::cout << "\n" << file_number << " files sent. Keep dropping files in folder \"send\"...\n";
 			std::string path_to_any_first_file;
 			for(;;)
 			{	std::this_thread::sleep_for(std::chrono::milliseconds(3000));
@@ -72,6 +73,7 @@ int main()
 					else {break;}
 				}
 			}
+			std::cout << "Sending file...\n";
 			
 			//Sends bit 0. (Signifies which blink is 0).
 			XkbLockModifiers(dpy, XkbUseCoreKbd, NUM_MASK, NUM_MASK); XSync(dpy, False); //Num Lock on.
@@ -125,6 +127,8 @@ int main()
 	//WZMWZMWZMWZMWZMWZMWZMWZMWZMWZMWZMWZMWZMWZMWZMWZMWZMWZMWZMWZMWZMWZMWZMWZMWZMWZMWZMWZMWZMWZMWZMWZMWZMWZMWZMWZMWZMWZMWZMWZMWZMWZMWZMWZMWZMWZMWZMWZMWZMWZMWZMW
 	if(o == "2")
 	{	std::filesystem::create_directories("saved_as_files");
+		
+		//Makes keyboard input be accepted automatically, as if pressing enter.
 		struct termios old_settings, new_settings;
 		tcgetattr(STDIN_FILENO, &old_settings);
 		new_settings = old_settings;
@@ -135,7 +139,7 @@ int main()
 		//Begins.
 		for(unsigned long long file_number = 1;; file_number++)
 		{	//Waits for key that represents zero.
-			std::cout << "\n\nreceiving file " << file_number << ", signifies zero: ";
+			std::cout << "\n\nReceiving file " << file_number << ", signifies zero: ";
 			char c; if(std::cin.get(c)) {std::cout << c;}
 			char key_representing_zero = c;
 			
@@ -150,7 +154,7 @@ int main()
 			//Waits for 9 keys.
 			out_stream.open(new_file_name); if(!out_stream) {std::cout << "\nCan't open file for writing. (Creates file).\n"; return 1;}
 			for(unsigned long long byte_number = 1;; byte_number++)
-			{	std::cout << "\nreceiving file " << file_number << ", byte " << byte_number << ": ";
+			{	std::cout << "\nReceiving file " << file_number << ", byte " << byte_number << ": ";
 				std::string typed_characters;
 				for(int a = 0; a < 9; a++)
 				{	char c; if(std::cin.get(c)) {typed_characters += c; std::cout << c;}
