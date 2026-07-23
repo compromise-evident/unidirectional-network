@@ -20,11 +20,12 @@ int main()
 	if(2 == 2)
 	{	std::filesystem::create_directories("saved_as_files");
 		
-		//Makes keyboard input be accepted automatically, as if pressing enter.
+		//Automatic enter stuff.
 		struct termios old_settings, new_settings;
 		tcgetattr(STDIN_FILENO, &old_settings);
 		new_settings = old_settings;
 		
+		//Makes keyboard input be accepted automatically, as if pressing enter.
 		new_settings.c_lflag &= ~(ICANON | ECHO);
 		tcsetattr(STDIN_FILENO, TCSANOW, &new_settings);
 		
