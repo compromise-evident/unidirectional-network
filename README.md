@@ -137,7 +137,7 @@ https://github.com/compromise-evident/what-not/blob/main/process_file_by_bits.cp
 
 https://github.com/compromise-evident/what-not/blob/main/presses_enter_after_you_type_n_characters.cpp
 
-https://github.com/compromise-evident/what-not/blob/main/toggle_num_lock_and_caps_lock.cpp
+https://github.com/compromise-evident/what-not/blob/main/toggle_Num_Lock_and_Caps_Lock.cpp
 
 https://github.com/compromise-evident/what-not/blob/main/date.cpp
 
