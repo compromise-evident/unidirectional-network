@@ -40,7 +40,7 @@ Option: |
 
 <br>
 
-### Make the photoresistors face the other keyboard's LEDs for num lock & caps lock
+### Make the photoresistors face the other keyboard's LEDs for Num Lock and Caps Lock
 
 <p align="center">
   <img src="docs/facing_photoresistors.jpg">
@@ -60,12 +60,12 @@ machine, set it as executable, and drag-n-drop it into a terminal.
 
 ### The logic
 
-* Just before each file is sent, num lock blinks 1 time so the receiver knows
-  which character is bit 0. It's ok if your computer swapped num lock & caps
-  lock.
-* Just before each byte is sent, if it's not the last byte, num lock blinks 1
-  time. If it is the last byte, caps lock blinks 1 time. It's ok if your
-  computer swapped num lock & caps lock.
+* Just before each file is sent, Num Lock blinks 1 time so the receiver knows
+  which character is bit 0. It's ok if your computer swapped Num Lock and Caps
+  Lock.
+* Just before each byte is sent, if it's not the last byte, Num Lock blinks 1
+  time. If it IS the last byte, Caps Lock blinks 1 time. It's ok if your
+  computer swapped Num Lock and Caps Lock.
 
 <br>
 
