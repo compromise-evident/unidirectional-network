@@ -63,7 +63,8 @@ machine, set it as executable, and drag-n-drop it into a terminal.
 Do this for AC power and battery power, then close their lids.
 File transfer will continue but their screens will be turned off
 which saves them from running all day. However, some laptops are just
-too locked down to allow you to do this with a different OS installed.
+too locked down to allow you to do this with a different OS installed,
+such as Apple laptops.
 
 <br>
 
