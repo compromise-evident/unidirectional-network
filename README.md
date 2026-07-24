@@ -145,5 +145,5 @@ https://github.com/compromise-evident/what-not/blob/main/date.cpp
 
 ### Appendix
 
-unidirectional-network has been written about on
+An old version has been written about on
 [HACKADAY](https://hackaday.com/2024/03/19/photoresistors-provide-air-gap-data-transfer-slowly/).
