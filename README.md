@@ -85,6 +85,8 @@ Because of the logic above, if you had opened the box at any time and allowed
 light to corrupt the transfer, or if the transfer was corrupted in any other way,
 then everything's still fine, even if it's in the "stuck" position. The receiver
 will always readjust and continue receiving correctly, again and again.
+So when you're testing and something goes wrong, just send more files.
+There's no need to ever reset or restart anything.
 
 <br>
 
