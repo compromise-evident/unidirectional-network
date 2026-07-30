@@ -58,6 +58,16 @@ machine, set it as executable, and drag-n-drop it into a terminal.
 
 <br>
 
+### Why
+
+Hackers wipe logs on the systems they target. But if you backup logs to an
+offline laptop connected to nothing, those logs are safe. And because this
+particular data diode is a little slow, you can backup just the logs that
+count; Those rare non-frequenter events where potential hackers make their first
+few visits before making their final undetectable visit.
+
+<br>
+
 ### Set your laptops to "do nothing" when lid is closed
 
 Do this for AC power and battery power, then close their lids.
