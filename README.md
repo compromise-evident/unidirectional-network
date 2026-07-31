@@ -152,10 +152,3 @@ https://github.com/compromise-evident/what-not/blob/main/presses_enter_after_you
 https://github.com/compromise-evident/what-not/blob/main/toggle_Num_Lock_and_Caps_Lock.cpp
 
 https://github.com/compromise-evident/what-not/blob/main/date.cpp
-
-<br>
-
-### Appendix
-
-An old version has been written about on
-[HACKADAY](https://hackaday.com/2024/03/19/photoresistors-provide-air-gap-data-transfer-slowly/).
