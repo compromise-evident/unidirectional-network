@@ -1,4 +1,5 @@
-Version 4.0.0   Uses num lock & caps lock instead of terminal boxes. Remastered.
+Version 4.0.0   Self-healing. Uses Num Lock and Caps Lock.  Remastered. Previous
+                versions used boxes moving in the terminal as the light source.
                 2026_07_18
 
 Version 3.0.2   Replaced system("clear"); because it's now broken. Aesthetics.
