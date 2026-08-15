@@ -1,5 +1,6 @@
-Version 4.0.0   Self-healing. Uses Num Lock and Caps Lock.  Remastered. Previous
-                versions used boxes moving in the terminal as the light source.
+Version 4.0.0   Self-healing. Uses Num Lock and Caps Lock LEDs as the light
+                source. Remastered. Previous versions used boxes moving in the
+                terminal as the light source which consumed too much user space.
                 2026_07_18
 
 Version 3.0.2   Replaced system("clear"); because it's now broken. Aesthetics.
