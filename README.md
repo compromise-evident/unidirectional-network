@@ -89,37 +89,6 @@ There's no need to ever reset or restart anything.
 
 <br>
 
-### Method 2: 345B/s (press enter & play wav at the same time)
-
-This method proves that modern generic photoresistors are
-sensitive to at least 5,520 adjustments in brightness per second
-(an opposite bit is appended to each data bit to keep
-the LED brightness normalized). The bottleneck is the LED;
-it cannot become darker fast enough after each flash of light.
-
-LEFT: power to the microphone line, interrupted by photoresistor.<br>
-RIGHT: power to the LED, interrupted by audio silence.
-
-<p align="center">
-  <img src="docs/LED/close-up.jpeg">
-</p>
-
-<p align="center">
-  <img src="docs/LED/materials.jpeg">
-</p>
-
-https://github.com/user-attachments/assets/7718a729-8c59-4c9f-b5e6-4502bc35dd4f
-
-<p align="center">
-  <img src="docs/LED/terminal.png">
-</p>
-
-See [LED.cpp](https://github.com/compromise-evident/unidirectional-network/blob/main/docs/LED/LED.cpp). (May need to tilt photoresistor away as in video above. Use it in a dark enclosure). <br>
-<sub>*Receiving machine must have audio recording hardware at least like that of the Dell Latitude E5500 (made in 2008).<br>
-If you own a modern thousand-dollar laptop, this won't work; your mic line is always noisy, even when disabled.<sub/>
-
-<br>
-
 ### Send files to the sending machine via truly instant NAS (no systemd)
 
 https://github.com/compromise-evident/what-not/blob/main/truly_instant_NAS
@@ -148,3 +117,34 @@ https://github.com/compromise-evident/what-not/blob/main/presses_enter_after_you
 https://github.com/compromise-evident/what-not/blob/main/toggle_Num_Lock_and_Caps_Lock.cpp
 
 https://github.com/compromise-evident/what-not/blob/main/date.cpp
+
+<br>
+
+### Method 2: 345B/s (press enter & play wav at the same time)
+
+This method proves that modern generic photoresistors are
+sensitive to at least 5,520 adjustments in brightness per second
+(an opposite bit is appended to each data bit to keep
+the LED brightness normalized). The bottleneck is the LED;
+it cannot become darker fast enough after each flash of light.
+
+LEFT: power to the microphone line, interrupted by photoresistor.<br>
+RIGHT: power to the LED, interrupted by audio silence.
+
+<p align="center">
+  <img src="docs/LED/close-up.jpeg">
+</p>
+
+<p align="center">
+  <img src="docs/LED/materials.jpeg">
+</p>
+
+https://github.com/user-attachments/assets/7718a729-8c59-4c9f-b5e6-4502bc35dd4f
+
+<p align="center">
+  <img src="docs/LED/terminal.png">
+</p>
+
+See [LED.cpp](https://github.com/compromise-evident/unidirectional-network/blob/main/docs/LED/LED.cpp). (May need to tilt photoresistor away as in video above. Use it in a dark enclosure). <br>
+<sub>*Receiving machine must have audio recording hardware at least like that of the Dell Latitude E5500 (made in 2008).<br>
+If you own a modern thousand-dollar laptop, this won't work; your mic line is always noisy, even when disabled.<sub/>
