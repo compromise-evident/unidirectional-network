@@ -17,12 +17,7 @@ Option: |
 
 <br>
 
-https://github.com/user-attachments/assets/1b836c88-2de2-4c22-b9a9-285ce55757a0
-
-<p align="center">
-  <video src="https://github.com/user-attachments/assets/1b836c88-2de2-4c22-b9a9-285ce55757a0" controls="controls" muted="muted" style="max-width: 100%;">
-  </video>
-</p>
+https://github.com/user-attachments/assets/d0d9cbb4-6c59-40aa-bb96-007b52a0e3cb
 
 <br>
 
@@ -111,10 +106,7 @@ RIGHT: power to the LED, interrupted by audio silence.
   <img src="docs/LED/materials.jpeg">
 </p>
 
-<p align="center">
-  <video src="https://github.com/compromise-evident/unidirectional-network/assets/75550631/4a9a4f20-4205-4f49-96c6-10445f4c7c2d" controls="controls" muted="muted" style="max-width: 100%;">
-  </video>
-</p>
+https://github.com/compromise-evident/unidirectional-network/assets/75550631/4a9a4f20-4205-4f49-96c6-10445f4c7c2d
 
 <p align="center">
   <img src="docs/LED/terminal.png">
