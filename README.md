@@ -108,7 +108,7 @@ RIGHT: power to the LED, interrupted by audio silence.
   <img src="docs/LED/materials.jpeg">
 </p>
 
-https://github.com/compromise-evident/unidirectional-network/assets/75550631/4a9a4f20-4205-4f49-96c6-10445f4c7c2d
+https://github.com/user-attachments/assets/7718a729-8c59-4c9f-b5e6-4502bc35dd4f
 
 <p align="center">
   <img src="docs/LED/terminal.png">
